@@ -1,7 +1,7 @@
 # 📌 Introduction
 This project explroes the job market for Data Analysts with a focus on remote opportunities, salaries, and in-demand skills. By leveraging SQL queries on a structured job postings dataset, the analysis identifies high-paying roles, required skills, and optimal skill sets for career development.
 
-- SQL queries & specific analysis: [project_sql folder](/project_sql/)
+- SQL queries & specific result: [project_sql folder](/project_sql/)
 
 # 🏗 Background
 The demand for Data Analysts has grown significantly as organizations become increasingly data-driven. Job seekers often face two key questions:
