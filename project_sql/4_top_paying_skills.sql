@@ -20,3 +20,46 @@ GROUP BY
 ORDER BY
 	avg_salary DESC
 LIMIT 10;
+
+[
+  {
+    "skills": "pyspark",
+    "avg_salary": "208172"
+  },
+  {
+    "skills": "bitbucket",
+    "avg_salary": "189155"
+  },
+  {
+    "skills": "watson",
+    "avg_salary": "160515"
+  },
+  {
+    "skills": "couchbase",
+    "avg_salary": "160515"
+  },
+  {
+    "skills": "datarobot",
+    "avg_salary": "155486"
+  },
+  {
+    "skills": "gitlab",
+    "avg_salary": "154500"
+  },
+  {
+    "skills": "swift",
+    "avg_salary": "153750"
+  },
+  {
+    "skills": "jupyter",
+    "avg_salary": "152777"
+  },
+  {
+    "skills": "pandas",
+    "avg_salary": "151821"
+  },
+  {
+    "skills": "elasticsearch",
+    "avg_salary": "145000"
+  }
+]

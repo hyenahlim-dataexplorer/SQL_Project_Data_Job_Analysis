@@ -20,7 +20,6 @@ WITH top_paying_jobs AS (
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC
-    LIMIT 10
 )
 
 SELECT 
@@ -30,4 +29,78 @@ FROM top_paying_jobs
 INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY
-    salary_year_avg DESC;
+    salary_year_avg DESC
+LIMIT 10;
+
+[
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "sql"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "python"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "r"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "azure"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "databricks"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "aws"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "pandas"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "pyspark"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "jupyter"
+  },
+  {
+    "job_id": 552322,
+    "job_title_short": "Data Analyst",
+    "salary_year_avg": "255829.5",
+    "company_name": "AT&T",
+    "skills": "excel"
+  }
+]
