@@ -10,17 +10,17 @@ The demand for Data Analysts has grown significantly as organizations become inc
 This project addresses these questions by analyzing a dataset of job postings and extracting insights to guide aspiring analysts and career professionals.
 
 # 🛠 Tools I Used
-* PostgreSQL → For data querying and analysis.
-* Visual Studio Code → For query development, debugging, and project organization.
-* Git & GitHub → For version control and portfolio presentation.
+* **PostgreSQL** → For data querying and analysis.
+* **Visual Studio Code** → For query development, debugging, and project organization.
+* **Git & GitHub** → For version control and portfolio presentation.
 
 # 📊 The Analysis
-I structured the analysis into five main SQL queries:
-1. Top-Paying Jobs → Identified the top 10 highest-paying remote Data Analyst roles with disclosed salaries.
-2. SKills for High-Paying Roles → Extracted the specific skills required for these top-paying jobs.
-3. Most In-Demand Skills → Found the top 5 skills most frequently requested in all Data Analyst job postings.
-4. Top Skills by Salary → Calculated average salaries associated with each skill to reveal which ones yield the greatest financial return.
-5. Optimal Skills (High Demand + High Salary) → Combined demand and salary insights to pinpoint the most strategic skills to learn.
+Five main SQL queries:
+1. **Top-Paying Jobs** → Identified the top 10 highest-paying remote Data Analyst roles with disclosed salaries.
+2. **Skills for High-Paying Roles** → Extracted the specific skills required for these top-paying jobs.
+3. **Most In-Demand Skills** → Found the top 5 skills most frequently requested in all Data Analyst job postings.
+4. **Top Skills by Salary** → Calculated average salaries associated with each skill to reveal which ones yield the greatest financial return.
+5. **Optimal Skills** (High Demand + High Salary) → Combined demand and salary insights to pinpoint the most strategic skills to learn.
 
 # 🎯 What I learned
 * How to structure complex SQL queries using CTEs, joins, grouping, and aggregations.
