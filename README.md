@@ -1,43 +1,61 @@
+# Data Job Market Analytics: Insights into Hiring, Skills, Salaries, and Trends
 ## 📌 Introduction
-This project explroes the job market for Data Analysts with a focus on remote opportunities, salaries, and in-demand skills. By leveraging SQL queries on a structured job postings dataset, the analysis identifies high-paying roles, required skills, and optimal skill sets for career development.
+The data job market is rapidly evolving, shaped by advancements in AI, cloud technologies, and global hiring practices. This project analyzes real-world job postings data to uncover trends in hiring companies, compensation, skills demand, and geographic distribution. By leveraging SQL for querying and aggregating, the analysis provides data-driven insights into what drives opportunities in the data field.
 
+**Main Character (Y)**: Data-related jobs (the central narrative)
+**Sub-main Characters (X)**: Salaries, Skills, Location, Company, and Time (the factors shaping the story).
+
+The analysis treats the job market as a dynamic ecosystem where the main character (data roles) is influenced by multiple forces (sub-main characters).
+ 
 - SQL queries & result: [project_sql folder](/project_sql/)
 
-## 🏗 Background
-The demand for Data Analysts has grown significantly as organizations become increasingly data-driven. Job seekers often face two key questions:
-1. Which companies offer the highest-paying Data Analyst roles?
-2. What skills are both in demand and associated with higher salaries?
-This project addresses these questions by analyzing a dataset of job postings and extracting insights to guide aspiring analysts and career professionals.
+## 📂 Background
+* Dataset: Job postings fact table and supporting dimension tables (titles, companies, skills, location)
+* Purpose: Explore hiring demand, salary structures, skills premium, and geographic distribution using SQL queries.
+* Approach: A question-driven analysis where each query answers a targeted job market question.
 
-## 🛠 Tools I Used
-* **PostgreSQL** → For data querying and analysis.
-* **Visual Studio Code** → For query development, debugging, and project organization.
-* **Git & GitHub** → For version control and portfolio presentation.
+## 🛠 Tools & Environment
+* **SQL Engine**: PostgreSQL
+**IDE**: Visual Studio Code
+**Version Control**: Git, GitHub
+**Visualization & Storytelling**: Python, Notion (for non-technical presentation)
 
-## 📊 The Analysis
-Five main SQL queries:
-1. **Top-Paying Jobs** → Identified the top 10 highest-paying remote Data Analyst roles with disclosed salaries.
-2. **Skills for High-Paying Roles** → Extracted the specific skills required for these top-paying jobs.
-3. **Most In-Demand Skills** → Found the top 5 skills most frequently requested in all Data Analyst job postings.
-4. **Top Skills by Salary** → Calculated average salaries associated with each skill to reveal which ones yield the greatest financial return.
-5. **Optimal Skills** (High Demand + High Salary) → Combined demand and salary insights to pinpoint the most strategic skills to learn.
+## 🔍 Summary of Analysis
+1. **Top Hiring Companies**
+* Emprego (Latin America) dominated hiring, while U.S. companies like Booz Allen Hamilton, Capital One, Walmart, Insight Global were also leaders.
+* Remote-first platforms (e.g., Listopro, Dice) highlighted the rise of global distributed hiring.
 
-## 🎯 What I learned
-* How to structure complex SQL queries using CTEs, joins, grouping, and aggregations.
-* The importance of data cleaning (removing null salaries) before meaningful analysis.
-* How to balance market demand (job security) with salary potential (financial growth) when identifying career skills.
-* Practical experience with SQL-driven market research that can be applied to real-world business intellignece tasks.
+2. **Salary Insights**
+* High-paying niche roles: GIS Analysts ($585k), Quantitative Data Scientist ($550k+).
+* Generalized titles: Senior Data Scientist ($154k), Senior Data Engineer ($146k).
+* Remote vs On-site: Remote roles averaged ~$132k vs. ~$122k for on-site.
 
-## ✅ Conclusion
-This project demonstrates how SQL can be leveraged to extract actionable insights from job postings data. The results highlight both career opportunities (top-paying companies and jobs) and skill strategies (balancing high demand with salary potential).
+3. **Skills Demand**
+* Most in-demand: SQL (385k postings), Python (382k postings), cloud platforms (AWS, Azure).
+* High-salary premium skills: MongoDB, Cassandra, Neo4j, Scala, Kafka (~$140k-$170).
+  * Demand ≠ Salary: SQL & Python are most demanded, but niche tools like 
+    Cassandra/Scala  carry higher salary premiums.
 
-For aspiring Data Analysts, the key takeaway is clear:
+4. **Geographic Distribution**
+* U.S. dominates (207k postings, 23k remote).
+* India, UK, France, Germany emerge as strong markets.
+* Sudan surprisingly appears with 21k postings, reflecting regional hiring platforms.
 
-* Master foundational tools (SQL, Excel, Python).
-* Learn visualization tools (Tableau, Power BI).
-* Develop expertise in cloud and big data technologies (AWS, Azure, Snowflake).
+5. **Market Trends Over Time**
+* Salary inflation observed for senior roles and hybrid jobs.
+* Remote opportunities are gaining traction globally.
+* Cloud, ML/AI frameworks, and bid data tools are becoming more prominent over time.
 
-By focusing on these areas, job seekers can position themselves competitively in a rapidly evolving market.
+## 📈 Conclusion
+This SQL-driven analysis demonstrates how data roles (main character) evolve under the influence of sub-main characters (salaries, skills, geography, companies, and time).
+Key takeaways include:
+* Employers: Global hiring platforms and large U.S. firms lead demand.
+* Job Seekers: Niche, emerging skills (e.g., graph DBs, stream processing) yield salary premiums.
+* Trends: Remote work continues to close salary gaps while expanding global talent pools.
+From a technical perspective, this project illustrates:
+* Proficiency in writing complex SQL queries (joins, aggregations, groupings).
+* Ability to transform raw job postings data into actionable insights.
+* Experience connecting storytelling with data-driven evidence.
 
 ### References
 * Barousse, Luke. SQL for Data Analytics. Available at: [(https://www.youtube.com/watch?v=7mz73uXD9DA)]
