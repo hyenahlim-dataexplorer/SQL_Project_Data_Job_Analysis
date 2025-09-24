@@ -1,5 +1,5 @@
 /* Question: How have job postings trended over time?
-   Sub-Question 1: Job Titles - which job titles are growing or declinging over time?
+   Sub-Question 1: Job Titles - which job titles are growing or declining over time?
    Sub-Question 2: Salaries - how have average salaries changed over time for these job titles?
                             - are remote roles seeing different trends to on-site roles?
    Sub-Question 3: Geography - which countries or region are showing increased demand for data-related jobs?
