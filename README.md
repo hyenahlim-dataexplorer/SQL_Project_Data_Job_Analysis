@@ -16,9 +16,9 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 
 ## 🛠 Tools & Environment
 * **SQL Engine**: PostgreSQL
-**IDE**: Visual Studio Code
-**Version Control**: Git, GitHub
-**Visualization & Storytelling**: Python, Notion (for non-technical presentation)
+* **IDE**: Visual Studio Code
+* **Version Control**: Git, GitHub
+* **Visualization & Storytelling**: R, Notion (for non-technical presentation)
 
 ## 🔍 Summary of Analysis
 1. **Top Hiring Companies**
