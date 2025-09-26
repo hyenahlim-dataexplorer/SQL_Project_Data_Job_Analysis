@@ -23,6 +23,7 @@ ggplot(job_demand_trend_raw,
        x = "Month", y = "Total Postings", color = "Job Title") + 
   theme_minimal()
 ```
+![Job Posting Trends](assets/5_1_job_posting_trends.png)
 
 # Sub-Question 2: Salaries - how have average salaries changed over time for these job titles?
 
