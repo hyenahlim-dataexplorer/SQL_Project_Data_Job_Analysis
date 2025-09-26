@@ -23,6 +23,7 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 
 ## 🔍 Summary of Analysis
 1. **Top Hiring Companies**
+
 |     Company Name    | Total Job Postings |     Location      |
 |---------------------|--------------------|-------------------|
 | Emprego             | 3,571              | Peru              |
@@ -34,7 +35,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 | Listopro            | 1,560              | Remote (Anywhere) |
 | Guidehouse          | 1,532              | United States     |
 | Dice                | 1,427              | Remote (Anywhere) |
-| Walmart             | 1,386              | United States |
+| Walmart             | 1,386              | United States     |
+
 * Emprego (Latin America) dominated hiring, while U.S. companies like Booz Allen Hamilton, Capital One, Walmart, Insight Global were also leaders.
 * Remote-first platforms (e.g., Listopro, Dice) highlighted the rise of global distributed hiring.
 
