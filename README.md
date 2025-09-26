@@ -6,9 +6,6 @@ The data job market is rapidly evolving, shaped by advancements in AI, cloud tec
 **Sub-main Characters (X)**: Salaries, Skills, Location, Company, and Time (the factors shaping the story).
 
 The analysis treats the job market as a dynamic ecosystem where the main character (data roles) is influenced by multiple forces (sub-main characters).
- 
-- SQL queries & results: [project_sql folder](/project_sql/)
-- R Visualiation Code: [R visualization Code](/project_sql/query5_visualization.r)
 
 ## 📂 Background
 * Dataset: Job postings fact table and supporting dimension tables (titles, companies, skills, location)
@@ -20,6 +17,7 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * **IDE**: Visual Studio Code
 * **Version Control**: Git, GitHub
 * **Visualization & Storytelling**: R, Notion (for non-technical presentation)
+- R Visualiation Code: [R visualization Code](/project_sql/query5_visualization.r)
 
 ## 🔍 Summary of Analysis
 1. **Top Hiring Companies**
@@ -39,6 +37,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 
 * Emprego (Latin America) dominated hiring, while U.S. companies like Booz Allen Hamilton, Capital One, Walmart, Insight Global were also leaders.
 * Remote-first platforms (e.g., Listopro, Dice) highlighted the rise of global distributed hiring.
+
+- SQL queries & results: [query_1](/project_sql/1_top_hiring_companies.sql)
 
 2. **Salary Insights**
 
@@ -67,6 +67,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * Generalized titles: Senior Data Scientist ($154k), Senior Data Engineer ($146k).
 * Remote vs On-site: Remote roles averaged ~$132k vs. ~$122k for on-site.
 
+- SQL queries & results: [query_2](/project_sql/2_salary_insights.sql)
+
 3. **Skills Demand**
 
 |      Skills      |    Demand Count    |        Skills        |   Average Salary   |
@@ -81,6 +83,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * High-salary premium skills: MongoDB, Cassandra, Neo4j, Scala, Kafka (~$140k-$170).
   * Demand ≠ Salary: SQL & Python are most demanded, but niche tools like 
     Cassandra/Scala  carry higher salary premiums.
+
+- SQL queries & results: [query_3](/project_sql/3_skills_demand.sql)
 
 4. **Geographic Distribution**
 
@@ -104,6 +108,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * U.S. dominates (207k postings, 23k remote).
 * India, UK, France, Germany emerge as strong markets.
 * Sudan surprisingly appears with 21k postings, reflecting regional hiring platforms.
+
+- SQL queries & results: [query_4](/project_sql/4_geographic_distribution.sql)
 
 5. **Market Trends Over Time**
 
@@ -135,6 +141,12 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * Salary inflation observed for senior roles and hybrid jobs.
 * Remote opportunities are gaining traction globally.
 * Cloud, ML/AI frameworks, and bid data tools are becoming more prominent over time.
+
+- SQL queries & results: [query_5](/project_sql/5_job_market_trends_over_time.sql)
+- job_title_demand_trends dataset: [query_5_1.csv](/project_sql/job_title_demand_trends.csv)
+- salary_trends dataset: [query_5_2.csv](/project_sql/salary_trends.csv)
+- job_title_geographic_trends dataset: [query_5_3.csv](/project_sql/job_title_geographic_trends.csv)
+- skill_salary_trends dataset: [query_5_4.csv](/project_sql/skill_salary_trends.csv)
 
 ## 📈 Conclusion
 The market signals convergence toward advanced, engineering-heavy skill sets, remote-first hiring models, and pay stratification based on niche tool adoption. For technical professionals and hiring managers, strategic investment in cloud, AI/ML, and distributed data systems skills will maximize competitiveness.
