@@ -144,9 +144,13 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * Cloud, ML/AI frameworks, and bid data tools are becoming more prominent over time.
 
 → SQL queries & results: [query_5](/project_sql/5_job_market_trends_over_time.sql)
+
 → job_title_demand_trends dataset: [query_5_1.csv](/project_sql/job_title_demand_trends.csv)
+
 → salary_trends dataset: [query_5_2.csv](/project_sql/salary_trends.csv)
+
 → job_title_geographic_trends dataset: [query_5_3.csv](/project_sql/job_title_geographic_trends.csv)
+
 → skill_salary_trends dataset: [query_5_4.csv](/project_sql/skill_salary_trends.csv)
 
 ## 📈 Conclusion
