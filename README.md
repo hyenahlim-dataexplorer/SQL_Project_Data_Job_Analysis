@@ -47,6 +47,8 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * Remote opportunities are gaining traction globally.
 * Cloud, ML/AI frameworks, and bid data tools are becoming more prominent over time.
 
+![Job Posting Trends](assets/5_1_job_posting_trends.png)
+
 ## 📈 Conclusion
 The market signals convergence toward advanced, engineering-heavy skill sets, remote-first hiring models, and pay stratification based on niche tool adoption. For technical professionals and hiring managers, strategic investment in cloud, AI/ML, and distributed data systems skills will maximize competitiveness.
 
