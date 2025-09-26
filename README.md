@@ -8,6 +8,7 @@ The data job market is rapidly evolving, shaped by advancements in AI, cloud tec
 The analysis treats the job market as a dynamic ecosystem where the main character (data roles) is influenced by multiple forces (sub-main characters).
  
 - SQL queries & result: [project_sql folder](/project_sql/)
+- R Visualiation Code: [project_sql folder](/project_sql/query5_visualization.r)
 
 ## 📂 Background
 * Dataset: Job postings fact table and supporting dimension tables (titles, companies, skills, location)
@@ -47,15 +48,7 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * Cloud, ML/AI frameworks, and bid data tools are becoming more prominent over time.
 
 ## 📈 Conclusion
-This SQL-driven analysis demonstrates how data roles (main character) evolve under the influence of sub-main characters (salaries, skills, geography, companies, and time).
-Key takeaways include:
-* Employers: Global hiring platforms and large U.S. firms lead demand.
-* Job Seekers: Niche, emerging skills (e.g., graph DBs, stream processing) yield salary premiums.
-* Trends: Remote work continues to close salary gaps while expanding global talent pools.
-From a technical perspective, this project illustrates:
-* Proficiency in writing complex SQL queries (joins, aggregations, groupings).
-* Ability to transform raw job postings data into actionable insights.
-* Experience connecting storytelling with data-driven evidence.
+The market signals convergence toward advanced, engineering-heavy skill sets, remote-first hiring models, and pay stratification based on niche tool adoption. For technical professionals and hiring managers, strategic investment in cloud, AI/ML, and distributed data systems skills will maximize competitiveness.
 
 ### References
 * Barousse, Luke. SQL for Data Analytics. Available at: [(https://www.youtube.com/watch?v=7mz73uXD9DA)]
