@@ -97,8 +97,9 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 | Netherlands         | 20,673             | 734               |
 | Italy               | 17,073             | 751               |
 
-![Top 10 Countries](assets/4_1_top_countries.png)
-![Top 10 Countries Remote](assets/4_2_top_remote.png)
+|            Top 10 Countires           |        Top 10 Countries Remote       |
+|---------------------------------------|--------------------------------------|
+|![](assets/4_1_top_countries.png)      | ![](assets/4_2_top_remote.png)       |
 
 * U.S. dominates (207k postings, 23k remote).
 * India, UK, France, Germany emerge as strong markets.
@@ -106,25 +107,25 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 
 5. **Market Trends Over Time**
 
-* Job Title Trends
+* **5-1. Job Title Trends Over Time**
 
 |            Job Posting Trends         |
 |---------------------------------------|
 |![](assets/5_1_job_posting_trends.png) |
 
-* Salary Trends Over Time
+* **5-2. Salary Trends Over Time**
 
 |              Salary Trends            |
 |---------------------------------------|
 |![](assets/5_2_salary_trends.png)      |
 
-* Geographic Trends
+* **5-3. Geographic Trends Over Time**
 
 |       Top 10 Job Countries      |  Top 10 Remote Job Countires  |
 |---------------------------------|-------------------------------|
 | ![](assets/5_3_country.png)     | ![](assets/5_3_remote.png)    |
 
-* Skills Demand & Salary Trends
+* **5-4. Skills Demand & Salary Trends Over Time**
 
 |        Skills by Demand          |         Skills by Salary           |
 |----------------------------------|------------------------------------|
