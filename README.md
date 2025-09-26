@@ -107,19 +107,29 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 5. **Market Trends Over Time**
 
 * Job Title Trends
-![Job Posting Trends](assets/5_1_job_posting_trends.png)
+
+|            Job Posting Trends         |
+|---------------------------------------|
+|![](assets/5_1_job_posting_trends.png) |
 
 * Salary Trends Over Time
-![Salary Trends](assets/5_2_salary_trends.png)
+
+|              Salary Trends            |
+|---------------------------------------|
+|![](assets/5_2_salary_trends.png)      |
 
 * Geographic Trends
-![Job Posting Countries](assets/5_3_country.png)
-![Job Posting Countires Remote](assets/5_3_remote.png)
+
+|       Top 10 Job Countries      |  Top 10 Remote Job Countires  |
+|---------------------------------|-------------------------------|
+| ![](assets/5_3_country.png)     | ![](assets/5_3_remote.png)    |
 
 * Skills Demand & Salary Trends
 
-![Skills by Demand](assets/5_4_skill_demand.png)
-![Skills by Salary](assets/5_4_skill_salary.png)
+|        Skills by Demand          |         Skills by Salary           |
+|----------------------------------|------------------------------------|
+| ![](assets/5_4_skill_demand.png) | ![](assets/5_4_skill_salary.png)   |
+
 
 * Salary inflation observed for senior roles and hybrid jobs.
 * Remote opportunities are gaining traction globally.
