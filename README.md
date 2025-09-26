@@ -8,7 +8,7 @@ The data job market is rapidly evolving, shaped by advancements in AI, cloud tec
 The analysis treats the job market as a dynamic ecosystem where the main character (data roles) is influenced by multiple forces (sub-main characters).
  
 - SQL queries & result: [project_sql folder](/project_sql/)
-- R Visualiation Code: [project_sql folder](/project_sql/query5_visualization.r)
+- R Visualiation Code: [visualization](/project_sql/query5_visualization.r)
 
 ## 📂 Background
 * Dataset: Job postings fact table and supporting dimension tables (titles, companies, skills, location)
