@@ -19,7 +19,7 @@ The analysis treats the job market as a dynamic ecosystem where the main charact
 * **Version Control**: Git, GitHub
 * **Visualization & Storytelling**: R, Notion (for non-technical presentation)
 
-→ R Visualiation Code: [R visualization Code](/project_sql/query5_visualization.r)
+→ R Visualization Code: [R visualization Code](/project_sql/query5_visualization.r)
 
 ## 🔍 Summary of Analysis
 1. **Top Hiring Companies**
