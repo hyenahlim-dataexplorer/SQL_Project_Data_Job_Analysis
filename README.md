@@ -3,6 +3,7 @@
 The data job market is rapidly evolving, shaped by advancements in AI, cloud technologies, and global hiring practices. This project analyzes real-world job postings data to uncover trends in hiring companies, compensation, skills demand, and geographic distribution. By leveraging SQL for querying and aggregating, the analysis provides data-driven insights into what drives opportunities in the data field.
 
 **Main Character (Y)**: Data-related jobs (the central narrative)
+
 **Sub-main Characters (X)**: Salaries, Skills, Location, Company, and Time (the factors shaping the story).
 
 The analysis treats the job market as a dynamic ecosystem where the main character (data roles) is influenced by multiple forces (sub-main characters).
